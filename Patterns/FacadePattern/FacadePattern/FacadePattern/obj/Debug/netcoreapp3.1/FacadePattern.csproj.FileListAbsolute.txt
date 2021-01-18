@@ -1,0 +1,13 @@
+C:\Users\olufe\source\repos\PluralSight\Patterns\FacadePattern\FacadePattern\FacadePattern\bin\Debug\netcoreapp3.1\FacadePattern.exe
+C:\Users\olufe\source\repos\PluralSight\Patterns\FacadePattern\FacadePattern\FacadePattern\bin\Debug\netcoreapp3.1\FacadePattern.deps.json
+C:\Users\olufe\source\repos\PluralSight\Patterns\FacadePattern\FacadePattern\FacadePattern\bin\Debug\netcoreapp3.1\FacadePattern.runtimeconfig.json
+C:\Users\olufe\source\repos\PluralSight\Patterns\FacadePattern\FacadePattern\FacadePattern\bin\Debug\netcoreapp3.1\FacadePattern.runtimeconfig.dev.json
+C:\Users\olufe\source\repos\PluralSight\Patterns\FacadePattern\FacadePattern\FacadePattern\bin\Debug\netcoreapp3.1\FacadePattern.dll
+C:\Users\olufe\source\repos\PluralSight\Patterns\FacadePattern\FacadePattern\FacadePattern\bin\Debug\netcoreapp3.1\FacadePattern.pdb
+C:\Users\olufe\source\repos\PluralSight\Patterns\FacadePattern\FacadePattern\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.csprojAssemblyReference.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\FacadePattern\FacadePattern\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.AssemblyInfoInputs.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\FacadePattern\FacadePattern\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.AssemblyInfo.cs
+C:\Users\olufe\source\repos\PluralSight\Patterns\FacadePattern\FacadePattern\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.csproj.CoreCompileInputs.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\FacadePattern\FacadePattern\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.dll
+C:\Users\olufe\source\repos\PluralSight\Patterns\FacadePattern\FacadePattern\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.pdb
+C:\Users\olufe\source\repos\PluralSight\Patterns\FacadePattern\FacadePattern\FacadePattern\obj\Debug\netcoreapp3.1\FacadePattern.genruntimeconfig.cache

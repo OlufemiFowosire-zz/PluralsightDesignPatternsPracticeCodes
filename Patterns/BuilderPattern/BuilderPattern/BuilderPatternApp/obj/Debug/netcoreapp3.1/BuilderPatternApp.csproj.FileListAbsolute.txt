@@ -1,0 +1,13 @@
+C:\Users\olufe\source\repos\PluralSight\Patterns\BuilderPattern\BuilderPattern\BuilderPatternApp\bin\Debug\netcoreapp3.1\BuilderPatternApp.exe
+C:\Users\olufe\source\repos\PluralSight\Patterns\BuilderPattern\BuilderPattern\BuilderPatternApp\bin\Debug\netcoreapp3.1\BuilderPatternApp.deps.json
+C:\Users\olufe\source\repos\PluralSight\Patterns\BuilderPattern\BuilderPattern\BuilderPatternApp\bin\Debug\netcoreapp3.1\BuilderPatternApp.runtimeconfig.json
+C:\Users\olufe\source\repos\PluralSight\Patterns\BuilderPattern\BuilderPattern\BuilderPatternApp\bin\Debug\netcoreapp3.1\BuilderPatternApp.runtimeconfig.dev.json
+C:\Users\olufe\source\repos\PluralSight\Patterns\BuilderPattern\BuilderPattern\BuilderPatternApp\bin\Debug\netcoreapp3.1\BuilderPatternApp.dll
+C:\Users\olufe\source\repos\PluralSight\Patterns\BuilderPattern\BuilderPattern\BuilderPatternApp\bin\Debug\netcoreapp3.1\BuilderPatternApp.pdb
+C:\Users\olufe\source\repos\PluralSight\Patterns\BuilderPattern\BuilderPattern\BuilderPatternApp\obj\Debug\netcoreapp3.1\BuilderPatternApp.csprojAssemblyReference.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\BuilderPattern\BuilderPattern\BuilderPatternApp\obj\Debug\netcoreapp3.1\BuilderPatternApp.AssemblyInfoInputs.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\BuilderPattern\BuilderPattern\BuilderPatternApp\obj\Debug\netcoreapp3.1\BuilderPatternApp.AssemblyInfo.cs
+C:\Users\olufe\source\repos\PluralSight\Patterns\BuilderPattern\BuilderPattern\BuilderPatternApp\obj\Debug\netcoreapp3.1\BuilderPatternApp.csproj.CoreCompileInputs.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\BuilderPattern\BuilderPattern\BuilderPatternApp\obj\Debug\netcoreapp3.1\BuilderPatternApp.dll
+C:\Users\olufe\source\repos\PluralSight\Patterns\BuilderPattern\BuilderPattern\BuilderPatternApp\obj\Debug\netcoreapp3.1\BuilderPatternApp.pdb
+C:\Users\olufe\source\repos\PluralSight\Patterns\BuilderPattern\BuilderPattern\BuilderPatternApp\obj\Debug\netcoreapp3.1\BuilderPatternApp.genruntimeconfig.cache

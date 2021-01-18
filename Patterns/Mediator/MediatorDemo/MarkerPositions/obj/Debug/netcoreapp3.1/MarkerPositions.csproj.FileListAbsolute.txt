@@ -1,0 +1,15 @@
+C:\Users\olufe\source\repos\PluralSight\Patterns\Mediator\MediatorDemo\MarkerPositions\bin\Debug\netcoreapp3.1\MarkerPositions.exe
+C:\Users\olufe\source\repos\PluralSight\Patterns\Mediator\MediatorDemo\MarkerPositions\bin\Debug\netcoreapp3.1\MarkerPositions.deps.json
+C:\Users\olufe\source\repos\PluralSight\Patterns\Mediator\MediatorDemo\MarkerPositions\bin\Debug\netcoreapp3.1\MarkerPositions.runtimeconfig.json
+C:\Users\olufe\source\repos\PluralSight\Patterns\Mediator\MediatorDemo\MarkerPositions\bin\Debug\netcoreapp3.1\MarkerPositions.runtimeconfig.dev.json
+C:\Users\olufe\source\repos\PluralSight\Patterns\Mediator\MediatorDemo\MarkerPositions\bin\Debug\netcoreapp3.1\MarkerPositions.dll
+C:\Users\olufe\source\repos\PluralSight\Patterns\Mediator\MediatorDemo\MarkerPositions\bin\Debug\netcoreapp3.1\MarkerPositions.pdb
+C:\Users\olufe\source\repos\PluralSight\Patterns\Mediator\MediatorDemo\MarkerPositions\obj\Debug\netcoreapp3.1\MarkerPositions.csprojAssemblyReference.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\Mediator\MediatorDemo\MarkerPositions\obj\Debug\netcoreapp3.1\MarkerPositions.Form1.resources
+C:\Users\olufe\source\repos\PluralSight\Patterns\Mediator\MediatorDemo\MarkerPositions\obj\Debug\netcoreapp3.1\MarkerPositions.csproj.GenerateResource.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\Mediator\MediatorDemo\MarkerPositions\obj\Debug\netcoreapp3.1\MarkerPositions.AssemblyInfoInputs.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\Mediator\MediatorDemo\MarkerPositions\obj\Debug\netcoreapp3.1\MarkerPositions.AssemblyInfo.cs
+C:\Users\olufe\source\repos\PluralSight\Patterns\Mediator\MediatorDemo\MarkerPositions\obj\Debug\netcoreapp3.1\MarkerPositions.csproj.CoreCompileInputs.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\Mediator\MediatorDemo\MarkerPositions\obj\Debug\netcoreapp3.1\MarkerPositions.dll
+C:\Users\olufe\source\repos\PluralSight\Patterns\Mediator\MediatorDemo\MarkerPositions\obj\Debug\netcoreapp3.1\MarkerPositions.pdb
+C:\Users\olufe\source\repos\PluralSight\Patterns\Mediator\MediatorDemo\MarkerPositions\obj\Debug\netcoreapp3.1\MarkerPositions.genruntimeconfig.cache

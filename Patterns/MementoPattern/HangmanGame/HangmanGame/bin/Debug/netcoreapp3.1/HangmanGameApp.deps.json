@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "HangmanGameApp/1.0.0": {
+        "dependencies": {
+          "HangmanGameLibrary": "1.0.0"
+        },
+        "runtime": {
+          "HangmanGameApp.dll": {}
+        }
+      },
+      "HangmanGameLibrary/1.0.0": {
+        "runtime": {
+          "HangmanGameLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HangmanGameApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HangmanGameLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

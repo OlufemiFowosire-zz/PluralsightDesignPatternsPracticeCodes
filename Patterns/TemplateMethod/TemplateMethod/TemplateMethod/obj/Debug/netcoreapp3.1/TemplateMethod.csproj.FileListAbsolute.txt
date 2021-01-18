@@ -1,0 +1,13 @@
+C:\Users\olufe\source\repos\PluralSight\Patterns\TemplateMethod\TemplateMethod\TemplateMethod\bin\Debug\netcoreapp3.1\TemplateMethod.exe
+C:\Users\olufe\source\repos\PluralSight\Patterns\TemplateMethod\TemplateMethod\TemplateMethod\bin\Debug\netcoreapp3.1\TemplateMethod.deps.json
+C:\Users\olufe\source\repos\PluralSight\Patterns\TemplateMethod\TemplateMethod\TemplateMethod\bin\Debug\netcoreapp3.1\TemplateMethod.runtimeconfig.json
+C:\Users\olufe\source\repos\PluralSight\Patterns\TemplateMethod\TemplateMethod\TemplateMethod\bin\Debug\netcoreapp3.1\TemplateMethod.runtimeconfig.dev.json
+C:\Users\olufe\source\repos\PluralSight\Patterns\TemplateMethod\TemplateMethod\TemplateMethod\bin\Debug\netcoreapp3.1\TemplateMethod.dll
+C:\Users\olufe\source\repos\PluralSight\Patterns\TemplateMethod\TemplateMethod\TemplateMethod\bin\Debug\netcoreapp3.1\TemplateMethod.pdb
+C:\Users\olufe\source\repos\PluralSight\Patterns\TemplateMethod\TemplateMethod\TemplateMethod\obj\Debug\netcoreapp3.1\TemplateMethod.csprojAssemblyReference.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\TemplateMethod\TemplateMethod\TemplateMethod\obj\Debug\netcoreapp3.1\TemplateMethod.AssemblyInfoInputs.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\TemplateMethod\TemplateMethod\TemplateMethod\obj\Debug\netcoreapp3.1\TemplateMethod.AssemblyInfo.cs
+C:\Users\olufe\source\repos\PluralSight\Patterns\TemplateMethod\TemplateMethod\TemplateMethod\obj\Debug\netcoreapp3.1\TemplateMethod.csproj.CoreCompileInputs.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\TemplateMethod\TemplateMethod\TemplateMethod\obj\Debug\netcoreapp3.1\TemplateMethod.dll
+C:\Users\olufe\source\repos\PluralSight\Patterns\TemplateMethod\TemplateMethod\TemplateMethod\obj\Debug\netcoreapp3.1\TemplateMethod.pdb
+C:\Users\olufe\source\repos\PluralSight\Patterns\TemplateMethod\TemplateMethod\TemplateMethod\obj\Debug\netcoreapp3.1\TemplateMethod.genruntimeconfig.cache

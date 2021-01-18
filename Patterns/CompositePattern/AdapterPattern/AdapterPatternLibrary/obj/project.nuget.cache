@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AwBnvgQEi66SxO40blpdGUKzn2hh7WXgQ+T/gxRXreHcmnNWDnmxkkJKyb0K1IDpNfNrxd08Jtim+X/hE78L7A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\olufe\\source\\repos\\PluralSight\\Patterns\\CompositePattern\\AdapterPattern\\AdapterPatternLibrary\\AdapterPatternLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\olufe\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

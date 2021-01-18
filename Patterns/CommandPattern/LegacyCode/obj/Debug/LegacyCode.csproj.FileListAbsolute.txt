@@ -1,0 +1,7 @@
+C:\Users\olufe\source\repos\PluralSight\Patterns\CommandPattern\LegacyCode\bin\Debug\LegacyCode.exe.config
+C:\Users\olufe\source\repos\PluralSight\Patterns\CommandPattern\LegacyCode\bin\Debug\LegacyCode.exe
+C:\Users\olufe\source\repos\PluralSight\Patterns\CommandPattern\LegacyCode\bin\Debug\LegacyCode.pdb
+C:\Users\olufe\source\repos\PluralSight\Patterns\CommandPattern\LegacyCode\obj\Debug\LegacyCode.csprojAssemblyReference.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\CommandPattern\LegacyCode\obj\Debug\LegacyCode.csproj.CoreCompileInputs.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\CommandPattern\LegacyCode\obj\Debug\LegacyCode.exe
+C:\Users\olufe\source\repos\PluralSight\Patterns\CommandPattern\LegacyCode\obj\Debug\LegacyCode.pdb

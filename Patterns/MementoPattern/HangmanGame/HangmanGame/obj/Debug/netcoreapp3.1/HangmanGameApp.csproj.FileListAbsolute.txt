@@ -1,0 +1,16 @@
+C:\Users\olufe\source\repos\PluralSight\Patterns\MementoPattern\HangmanGame\HangmanGame\bin\Debug\netcoreapp3.1\HangmanGameApp.exe
+C:\Users\olufe\source\repos\PluralSight\Patterns\MementoPattern\HangmanGame\HangmanGame\bin\Debug\netcoreapp3.1\HangmanGameApp.deps.json
+C:\Users\olufe\source\repos\PluralSight\Patterns\MementoPattern\HangmanGame\HangmanGame\bin\Debug\netcoreapp3.1\HangmanGameApp.runtimeconfig.json
+C:\Users\olufe\source\repos\PluralSight\Patterns\MementoPattern\HangmanGame\HangmanGame\bin\Debug\netcoreapp3.1\HangmanGameApp.runtimeconfig.dev.json
+C:\Users\olufe\source\repos\PluralSight\Patterns\MementoPattern\HangmanGame\HangmanGame\bin\Debug\netcoreapp3.1\HangmanGameApp.dll
+C:\Users\olufe\source\repos\PluralSight\Patterns\MementoPattern\HangmanGame\HangmanGame\bin\Debug\netcoreapp3.1\HangmanGameApp.pdb
+C:\Users\olufe\source\repos\PluralSight\Patterns\MementoPattern\HangmanGame\HangmanGame\bin\Debug\netcoreapp3.1\HangmanGameLibrary.dll
+C:\Users\olufe\source\repos\PluralSight\Patterns\MementoPattern\HangmanGame\HangmanGame\bin\Debug\netcoreapp3.1\HangmanGameLibrary.pdb
+C:\Users\olufe\source\repos\PluralSight\Patterns\MementoPattern\HangmanGame\HangmanGame\obj\Debug\netcoreapp3.1\HangmanGameApp.csprojAssemblyReference.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\MementoPattern\HangmanGame\HangmanGame\obj\Debug\netcoreapp3.1\HangmanGameApp.AssemblyInfoInputs.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\MementoPattern\HangmanGame\HangmanGame\obj\Debug\netcoreapp3.1\HangmanGameApp.AssemblyInfo.cs
+C:\Users\olufe\source\repos\PluralSight\Patterns\MementoPattern\HangmanGame\HangmanGame\obj\Debug\netcoreapp3.1\HangmanGameApp.csproj.CoreCompileInputs.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\MementoPattern\HangmanGame\HangmanGame\obj\Debug\netcoreapp3.1\HangmanGameApp.csproj.CopyComplete
+C:\Users\olufe\source\repos\PluralSight\Patterns\MementoPattern\HangmanGame\HangmanGame\obj\Debug\netcoreapp3.1\HangmanGameApp.dll
+C:\Users\olufe\source\repos\PluralSight\Patterns\MementoPattern\HangmanGame\HangmanGame\obj\Debug\netcoreapp3.1\HangmanGameApp.pdb
+C:\Users\olufe\source\repos\PluralSight\Patterns\MementoPattern\HangmanGame\HangmanGame\obj\Debug\netcoreapp3.1\HangmanGameApp.genruntimeconfig.cache

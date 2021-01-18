@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonNaiveApproach", "SingletonNaiveApproach\SingletonNaiveApproach.csproj", "{E17793B2-0864-4BE3-9535-D97940BAD5ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonTest", "SingletonTest\SingletonTest.csproj", "{E06C84A9-E38E-4CCC-B1BF-681280F00ACC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E17793B2-0864-4BE3-9535-D97940BAD5ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E17793B2-0864-4BE3-9535-D97940BAD5ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E17793B2-0864-4BE3-9535-D97940BAD5ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E17793B2-0864-4BE3-9535-D97940BAD5ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E06C84A9-E38E-4CCC-B1BF-681280F00ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E06C84A9-E38E-4CCC-B1BF-681280F00ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E06C84A9-E38E-4CCC-B1BF-681280F00ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E06C84A9-E38E-4CCC-B1BF-681280F00ACC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {040C2C66-2905-424D-B0A6-3B2A3356D722}
+	EndGlobalSection
+EndGlobal

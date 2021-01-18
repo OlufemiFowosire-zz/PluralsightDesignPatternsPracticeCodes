@@ -1,0 +1,6 @@
+C:\Users\olufe\source\repos\PluralSight\Patterns\StatePattern\EventBookingProcess_\EventBookingProcess.Library\bin\Debug\EventBookingProcess.Library.dll
+C:\Users\olufe\source\repos\PluralSight\Patterns\StatePattern\EventBookingProcess_\EventBookingProcess.Library\bin\Debug\EventBookingProcess.Library.pdb
+C:\Users\olufe\source\repos\PluralSight\Patterns\StatePattern\EventBookingProcess_\EventBookingProcess.Library\obj\Debug\EventBookingProcess.Library.csproj.CoreCompileInputs.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\StatePattern\EventBookingProcess_\EventBookingProcess.Library\obj\Debug\EventBookingProcess.Library.dll
+C:\Users\olufe\source\repos\PluralSight\Patterns\StatePattern\EventBookingProcess_\EventBookingProcess.Library\obj\Debug\EventBookingProcess.Library.pdb
+C:\Users\olufe\source\repos\PluralSight\Patterns\StatePattern\EventBookingProcess_\EventBookingProcess.Library\obj\Debug\EventBookingProcess.Library.csprojAssemblyReference.cache

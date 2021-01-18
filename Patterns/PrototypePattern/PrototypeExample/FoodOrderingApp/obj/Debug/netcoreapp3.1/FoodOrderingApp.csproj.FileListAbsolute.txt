@@ -1,0 +1,13 @@
+C:\Users\olufe\source\repos\PluralSight\Patterns\PrototypePattern\PrototypeExample\FoodOrderingApp\bin\Debug\netcoreapp3.1\FoodOrderingApp.exe
+C:\Users\olufe\source\repos\PluralSight\Patterns\PrototypePattern\PrototypeExample\FoodOrderingApp\bin\Debug\netcoreapp3.1\FoodOrderingApp.deps.json
+C:\Users\olufe\source\repos\PluralSight\Patterns\PrototypePattern\PrototypeExample\FoodOrderingApp\bin\Debug\netcoreapp3.1\FoodOrderingApp.runtimeconfig.json
+C:\Users\olufe\source\repos\PluralSight\Patterns\PrototypePattern\PrototypeExample\FoodOrderingApp\bin\Debug\netcoreapp3.1\FoodOrderingApp.runtimeconfig.dev.json
+C:\Users\olufe\source\repos\PluralSight\Patterns\PrototypePattern\PrototypeExample\FoodOrderingApp\bin\Debug\netcoreapp3.1\FoodOrderingApp.dll
+C:\Users\olufe\source\repos\PluralSight\Patterns\PrototypePattern\PrototypeExample\FoodOrderingApp\bin\Debug\netcoreapp3.1\FoodOrderingApp.pdb
+C:\Users\olufe\source\repos\PluralSight\Patterns\PrototypePattern\PrototypeExample\FoodOrderingApp\obj\Debug\netcoreapp3.1\FoodOrderingApp.csprojAssemblyReference.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\PrototypePattern\PrototypeExample\FoodOrderingApp\obj\Debug\netcoreapp3.1\FoodOrderingApp.AssemblyInfoInputs.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\PrototypePattern\PrototypeExample\FoodOrderingApp\obj\Debug\netcoreapp3.1\FoodOrderingApp.AssemblyInfo.cs
+C:\Users\olufe\source\repos\PluralSight\Patterns\PrototypePattern\PrototypeExample\FoodOrderingApp\obj\Debug\netcoreapp3.1\FoodOrderingApp.csproj.CoreCompileInputs.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\PrototypePattern\PrototypeExample\FoodOrderingApp\obj\Debug\netcoreapp3.1\FoodOrderingApp.dll
+C:\Users\olufe\source\repos\PluralSight\Patterns\PrototypePattern\PrototypeExample\FoodOrderingApp\obj\Debug\netcoreapp3.1\FoodOrderingApp.pdb
+C:\Users\olufe\source\repos\PluralSight\Patterns\PrototypePattern\PrototypeExample\FoodOrderingApp\obj\Debug\netcoreapp3.1\FoodOrderingApp.genruntimeconfig.cache

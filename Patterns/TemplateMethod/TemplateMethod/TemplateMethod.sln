@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{5495A7FE-56FD-4E09-AC9E-EAC38B267C04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod.Test", "TemplateMethod.Test\TemplateMethod.Test.csproj", "{348A6890-A090-4084-BB04-A30F874FC426}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5495A7FE-56FD-4E09-AC9E-EAC38B267C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5495A7FE-56FD-4E09-AC9E-EAC38B267C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5495A7FE-56FD-4E09-AC9E-EAC38B267C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5495A7FE-56FD-4E09-AC9E-EAC38B267C04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{348A6890-A090-4084-BB04-A30F874FC426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{348A6890-A090-4084-BB04-A30F874FC426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{348A6890-A090-4084-BB04-A30F874FC426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{348A6890-A090-4084-BB04-A30F874FC426}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D92E3CA7-104A-4485-BCC4-CA64CD37EE52}
+	EndGlobalSection
+EndGlobal

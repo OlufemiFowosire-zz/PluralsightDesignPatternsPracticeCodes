@@ -1,0 +1,13 @@
+C:\Users\olufe\source\repos\PluralSight\Patterns\NullPattern\NullObjectPattern\NullObject\bin\Debug\netcoreapp3.1\NullObject.exe
+C:\Users\olufe\source\repos\PluralSight\Patterns\NullPattern\NullObjectPattern\NullObject\bin\Debug\netcoreapp3.1\NullObject.deps.json
+C:\Users\olufe\source\repos\PluralSight\Patterns\NullPattern\NullObjectPattern\NullObject\bin\Debug\netcoreapp3.1\NullObject.runtimeconfig.json
+C:\Users\olufe\source\repos\PluralSight\Patterns\NullPattern\NullObjectPattern\NullObject\bin\Debug\netcoreapp3.1\NullObject.runtimeconfig.dev.json
+C:\Users\olufe\source\repos\PluralSight\Patterns\NullPattern\NullObjectPattern\NullObject\bin\Debug\netcoreapp3.1\NullObject.dll
+C:\Users\olufe\source\repos\PluralSight\Patterns\NullPattern\NullObjectPattern\NullObject\bin\Debug\netcoreapp3.1\NullObject.pdb
+C:\Users\olufe\source\repos\PluralSight\Patterns\NullPattern\NullObjectPattern\NullObject\obj\Debug\netcoreapp3.1\NullObject.csprojAssemblyReference.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\NullPattern\NullObjectPattern\NullObject\obj\Debug\netcoreapp3.1\NullObject.AssemblyInfoInputs.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\NullPattern\NullObjectPattern\NullObject\obj\Debug\netcoreapp3.1\NullObject.AssemblyInfo.cs
+C:\Users\olufe\source\repos\PluralSight\Patterns\NullPattern\NullObjectPattern\NullObject\obj\Debug\netcoreapp3.1\NullObject.csproj.CoreCompileInputs.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\NullPattern\NullObjectPattern\NullObject\obj\Debug\netcoreapp3.1\NullObject.dll
+C:\Users\olufe\source\repos\PluralSight\Patterns\NullPattern\NullObjectPattern\NullObject\obj\Debug\netcoreapp3.1\NullObject.pdb
+C:\Users\olufe\source\repos\PluralSight\Patterns\NullPattern\NullObjectPattern\NullObject\obj\Debug\netcoreapp3.1\NullObject.genruntimeconfig.cache

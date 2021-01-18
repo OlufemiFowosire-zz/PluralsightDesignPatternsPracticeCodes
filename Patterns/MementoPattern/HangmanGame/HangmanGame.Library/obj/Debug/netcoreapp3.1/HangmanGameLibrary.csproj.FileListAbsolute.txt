@@ -1,0 +1,9 @@
+C:\Users\olufe\source\repos\PluralSight\Patterns\MementoPattern\HangmanGame\HangmanGame.Library\bin\Debug\netcoreapp3.1\HangmanGameLibrary.deps.json
+C:\Users\olufe\source\repos\PluralSight\Patterns\MementoPattern\HangmanGame\HangmanGame.Library\bin\Debug\netcoreapp3.1\HangmanGameLibrary.dll
+C:\Users\olufe\source\repos\PluralSight\Patterns\MementoPattern\HangmanGame\HangmanGame.Library\bin\Debug\netcoreapp3.1\HangmanGameLibrary.pdb
+C:\Users\olufe\source\repos\PluralSight\Patterns\MementoPattern\HangmanGame\HangmanGame.Library\obj\Debug\netcoreapp3.1\HangmanGameLibrary.csprojAssemblyReference.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\MementoPattern\HangmanGame\HangmanGame.Library\obj\Debug\netcoreapp3.1\HangmanGameLibrary.AssemblyInfoInputs.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\MementoPattern\HangmanGame\HangmanGame.Library\obj\Debug\netcoreapp3.1\HangmanGameLibrary.AssemblyInfo.cs
+C:\Users\olufe\source\repos\PluralSight\Patterns\MementoPattern\HangmanGame\HangmanGame.Library\obj\Debug\netcoreapp3.1\HangmanGameLibrary.csproj.CoreCompileInputs.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\MementoPattern\HangmanGame\HangmanGame.Library\obj\Debug\netcoreapp3.1\HangmanGameLibrary.dll
+C:\Users\olufe\source\repos\PluralSight\Patterns\MementoPattern\HangmanGame\HangmanGame.Library\obj\Debug\netcoreapp3.1\HangmanGameLibrary.pdb
