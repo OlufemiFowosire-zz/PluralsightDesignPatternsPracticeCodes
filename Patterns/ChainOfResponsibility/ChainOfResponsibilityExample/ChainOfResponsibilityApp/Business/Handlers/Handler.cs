@@ -6,18 +6,21 @@ namespace ChainOfResponsibilityApp.Business.Handlers
     {
         private IHandler<T> Next { get; set; }
         protected T request;
-        protected Predicate<T> predicate;
 
         public void Handle()
         {
             Next?.Handle();
-            if (predicate(request))
+            if (hook())
             {
-                hookException();
+                throwException();
             }
         }
 
-        protected abstract void hookException();
+        protected abstract void throwException();
+        protected virtual bool hook()
+        {
+            return true;
+        }
         public IHandler<T> SetNext(IHandler<T> next)
         {
             Next = next;

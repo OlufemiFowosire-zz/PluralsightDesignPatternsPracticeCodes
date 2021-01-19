@@ -13,10 +13,14 @@ namespace ChainOfResponsibilityApp.Business.Handlers.UserValidation
         public NameValidationHandler(User user)
         {
             this.request = user;
-            predicate = (user) => user.Name.Length <= 1;
         }
 
-        protected override void hookException()
+        protected override bool hook()
+        {
+            return request.Name.Length <= 1;
+        }
+
+        protected override void throwException()
         {
             throw new UserValidationException("Your name is unlikey this short.");
         }

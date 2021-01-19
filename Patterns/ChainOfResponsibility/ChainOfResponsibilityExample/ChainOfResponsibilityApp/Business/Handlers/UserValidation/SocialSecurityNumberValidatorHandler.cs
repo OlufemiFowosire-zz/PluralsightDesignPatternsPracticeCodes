@@ -17,11 +17,15 @@ namespace ChainOfResponsibilityApp.Business.Handlers.UserValidation
         public SocialSecurityNumberValidatorHandler(User user)
         {
             this.request = user;
-            predicate = (user) => !socialSecurityNumberValidator.Validate(user.SocialSecurityNumber,
-                user.CitizenshipRegion);
         }
 
-        protected override void hookException()
+        protected override bool hook()
+        {
+            return !socialSecurityNumberValidator.Validate(request.SocialSecurityNumber,
+                request.CitizenshipRegion);
+        }
+
+        protected override void throwException()
         {
             throw new UserValidationException("Social secuirty number could not be validated");
         }

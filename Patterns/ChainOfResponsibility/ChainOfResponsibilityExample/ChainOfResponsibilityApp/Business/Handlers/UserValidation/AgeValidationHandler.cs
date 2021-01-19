@@ -13,10 +13,14 @@ namespace ChainOfResponsibilityApp.Business.Handlers.UserValidation
         public AgeValidationHandler(User user)
         {
             this.request = user;
-            predicate = (user) => user.Age < 18;
         }
 
-        protected override void hookException()
+        protected override bool hook()
+        {
+            return request.Age < 18;
+        }
+
+        protected override void throwException()
         {
             throw new UserValidationException("You have to be 18 years or older");
         }

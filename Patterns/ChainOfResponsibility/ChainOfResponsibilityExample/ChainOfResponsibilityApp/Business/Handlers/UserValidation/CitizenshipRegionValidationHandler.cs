@@ -13,10 +13,14 @@ namespace ChainOfResponsibilityApp.Business.Handlers.UserValidation
         public CitizenshipRegionValidationHandler(User user)
         {
             this.request = user;
-            predicate = (user) => user.CitizenshipRegion.TwoLetterISORegionName == "NO";
         }
 
-        protected override void hookException()
+        protected override bool hook()
+        {
+            return request.CitizenshipRegion.TwoLetterISORegionName == "NO";
+        }
+
+        protected override void throwException()
         {
             throw new UserValidationException("We currently do not support Norwegians");
         }
