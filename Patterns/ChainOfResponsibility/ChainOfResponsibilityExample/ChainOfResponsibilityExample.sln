@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibilityApp", "ChainOfResponsibilityApp\ChainOfResponsibilityApp.csproj", "{D23BF8EC-6FC3-45BA-AAEB-CB1CDB66063E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibilityApp", "ChainOfResponsibilityApp\ChainOfResponsibilityApp.csproj", "{D23BF8EC-6FC3-45BA-AAEB-CB1CDB66063E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentProcessing", "PaymentProcessing\PaymentProcessing.csproj", "{CEDE6386-92BB-41C6-8758-B65795C8DB0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D23BF8EC-6FC3-45BA-AAEB-CB1CDB66063E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D23BF8EC-6FC3-45BA-AAEB-CB1CDB66063E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D23BF8EC-6FC3-45BA-AAEB-CB1CDB66063E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEDE6386-92BB-41C6-8758-B65795C8DB0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEDE6386-92BB-41C6-8758-B65795C8DB0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEDE6386-92BB-41C6-8758-B65795C8DB0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEDE6386-92BB-41C6-8758-B65795C8DB0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
