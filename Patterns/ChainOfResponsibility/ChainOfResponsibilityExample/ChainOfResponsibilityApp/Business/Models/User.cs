@@ -13,10 +13,10 @@ namespace ChainOfResponsibilityApp.Business.Models
             DateOfBirth = dateTimeOffset;
         }
 
-        public string SocialSecurityNumber { get; internal set; }
-        public RegionInfo CitizenshipRegion { get; internal set; }
+        public string SocialSecurityNumber { get; }
+        public RegionInfo CitizenshipRegion { get; }
         public int Age => (int)((DateTimeOffset.UtcNow - DateOfBirth.UtcDateTime).TotalDays / 365.2425);
         public DateTimeOffset DateOfBirth { get; }
-        public string Name { get; internal set; }
+        public string Name { get; }
     }
 }

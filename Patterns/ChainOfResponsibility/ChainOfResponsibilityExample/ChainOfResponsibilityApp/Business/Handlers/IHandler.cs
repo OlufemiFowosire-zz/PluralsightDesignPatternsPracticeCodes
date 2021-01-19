@@ -9,6 +9,6 @@ namespace ChainOfResponsibilityApp.Business.Handlers
     public interface IHandler<T>
     {
         IHandler<T> SetNext(IHandler<T> next);
-        void Handle(T request);
+        void Handle();
     }
 }

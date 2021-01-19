@@ -12,22 +12,21 @@ namespace ChainOfResponsibilityApp.Business
         private SocialSecurityNumberValidator socialSecurityNumberValidator
             = new SocialSecurityNumberValidator();
 
-        public bool Register(User user)
+        public void Register(User user)
         {
             try
             {
-                IHandler<User> handler = new SocialSecurityNumberValidatorHandler();
-                handler.SetNext(new AgeValidationHandler())
-                    .SetNext(new NameValidationHandler())
-                    .SetNext(new CitizenshipRegionValidationHandler());
+                IHandler<User> handler = new SocialSecurityNumberValidatorHandler(user);
+                handler.SetNext(new AgeValidationHandler(user))
+                    .SetNext(new NameValidationHandler(user))
+                    .SetNext(new CitizenshipRegionValidationHandler(user));
 
-                handler.Handle(user);
+                handler.Handle();
             }
             catch (UserValidationException ex)
             {
                 throw ex;
             }
-            return true;
         }
     }
 }

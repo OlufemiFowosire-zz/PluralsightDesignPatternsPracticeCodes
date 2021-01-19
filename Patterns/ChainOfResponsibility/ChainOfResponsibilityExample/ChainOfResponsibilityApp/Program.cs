@@ -1,4 +1,5 @@
 ﻿using ChainOfResponsibilityApp.Business;
+using ChainOfResponsibilityApp.Business.Exceptions;
 using ChainOfResponsibilityApp.Business.Models;
 using System;
 using System.Globalization;
@@ -16,10 +17,17 @@ namespace ChainOfResponsibilityApp
                 TimeSpan.FromHours(2)));
 
             var processor = new UserProcessor();
+            try
+            {
+                processor.Register(user);
+            }
+            catch (UserValidationException ex)
+            {
+                Console.WriteLine(ex.Message);
+                return;
+            }
 
-            var result = processor.Register(user);
-
-            Console.WriteLine(result);
+            Console.WriteLine("User successfully registered!");
         }
     }
 }
