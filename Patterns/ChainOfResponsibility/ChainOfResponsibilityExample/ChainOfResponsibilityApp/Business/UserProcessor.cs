@@ -1,4 +1,7 @@
-﻿using ChainOfResponsibilityApp.Business.Models;
+﻿using ChainOfResponsibilityApp.Business.Exceptions;
+using ChainOfResponsibilityApp.Business.Handlers;
+using ChainOfResponsibilityApp.Business.Handlers.UserValidation;
+using ChainOfResponsibilityApp.Business.Models;
 using ChainOfResponsibilityApp.Business.Validators;
 using System;
 
@@ -11,27 +14,20 @@ namespace ChainOfResponsibilityApp.Business
 
         public bool Register(User user)
         {
-            if(!socialSecurityNumberValidator.Validate(user.SocialSecurityNumber,
-                user.CitizenshipRegion))
+            try
             {
-                return false;
+                IHandler<User> handler = new SocialSecurityNumberValidatorHandler();
+                handler.SetNext(new AgeValidationHandler())
+                    .SetNext(new NameValidationHandler())
+                    .SetNext(new CitizenshipRegionValidationHandler());
+
+                handler.Handle(user);
             }
-            else if (user.Age < 18)
+            catch (UserValidationException ex)
             {
-                return false;
+                throw ex;
             }
-            else if(user.Name.Length <= 1)
-            {
-                return false;
-            }
-            else if(user.CitizenshipRegion.TwoLetterISORegionName == "NO")
-            {
-                return false;
-            }
-            else
-            {
-                return true;
-            }
+            return true;
         }
     }
 }
