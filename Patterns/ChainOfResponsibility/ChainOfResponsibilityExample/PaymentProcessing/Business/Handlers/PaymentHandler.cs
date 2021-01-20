@@ -1,4 +1,5 @@
 ﻿using PaymentProcessing.Business.Exceptions;
+using PaymentProcessing.Business.Handlers.Receivers;
 using PaymentProcessing.Business.Models;
 using System;
 using System.Collections.Generic;
@@ -8,19 +9,31 @@ using System.Threading.Tasks;
 
 namespace PaymentProcessing.Business.Handlers
 {
-    public abstract class PaymentHandler : IHandler<Order>
+    public class PaymentHandler
     {
-        private IHandler<Order> next;
-        public virtual void Handle(Order order)
+        private IList<IReceiver<Order>> receivers;
+
+        public PaymentHandler(params IReceiver<Order>[] receivers)
         {
-            Console.WriteLine($"Running: {GetType().Name}");
-            if(next == null && order.AmountDue > 0)
+            this.receivers = receivers;
+        }
+        public void Handle(Order order)
+        {
+            foreach (var receiver in receivers)
             {
-                throw new InsufficientPaymentException("Insufficient balance!");
+                Console.WriteLine($"Running: {receiver.GetType().Name}");
+                if (order.AmountDue > 0)
+                {
+                    receiver.Handle(order);
+                }
+                else
+                {
+                    break;
+                }
             }
             if(order.AmountDue > 0)
             {
-                next.Handle(order);
+                throw new InsufficientPaymentException("Insufficient balance!");
             }
             else
             {
@@ -31,11 +44,9 @@ namespace PaymentProcessing.Business.Handlers
             }
         }
 
-        public IHandler<Order> SetNext(IHandler<Order> next)
+        public void SetNext(IReceiver<Order> next)
         {
-            this.next = next;
-
-            return next;
+            receivers.Add(next);
         }
     }
 }

@@ -12,6 +12,8 @@ namespace PaymentProcessing.Business.Models
         public List<Payment> FinalizedPayments { get; } = new List<Payment>();
         public Dictionary<Item, int> LineItems { get; } = new Dictionary<Item, int>();
         public decimal AmountDue => LineItems.Sum(item => item.Key.Price * item.Value) - FinalizedPayments.Sum(payment => payment.Amount);
+        public decimal AmountPaid => FinalizedPayments.Sum(payment => payment.Amount);
+        public decimal WalletBalance => SelectedPayments.Sum(payment => payment.Amount);
         public ShippingStatus ShippingStatus { get; set; } = ShippingStatus.WaitingForPayment;
     }
 }

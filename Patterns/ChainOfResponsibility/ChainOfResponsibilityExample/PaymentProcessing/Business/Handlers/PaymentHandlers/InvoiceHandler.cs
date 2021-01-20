@@ -1,4 +1,5 @@
-﻿using PaymentProcessing.Business.Models;
+﻿using PaymentProcessing.Business.Handlers.Receivers;
+using PaymentProcessing.Business.Models;
 using PaymentProcessing.Business.PaymentProcessors;
 using System;
 using System.Collections.Generic;
@@ -8,16 +9,14 @@ using System.Threading.Tasks;
 
 namespace PaymentProcessing.Business.Handlers.PaymentHandlers
 {
-    public class InvoiceHandler : PaymentHandler
+    public class InvoiceHandler : IReceiver<Order>
     {
-        private IPaymentProcessor paymentProcessor = new InvoicePaymentProcessor();
-        public override void Handle(Order order)
+        private PaymentProcessor paymentProcessor = new InvoicePaymentProcessor();
+        public void Handle(Order order)
         {
-            if (order.SelectedPayments.Any(payment => payment.PaymentProvider == PaymentProvider.Invoice))
-            {
-                paymentProcessor.Finalize(order);
-            }
-            base.Handle(order);
+            if (!order.SelectedPayments.Any(payment => payment.PaymentProvider == PaymentProvider.Invoice)) return;
+            
+            paymentProcessor.Finalize(order, PaymentProvider.Invoice);
         }
     }
 }

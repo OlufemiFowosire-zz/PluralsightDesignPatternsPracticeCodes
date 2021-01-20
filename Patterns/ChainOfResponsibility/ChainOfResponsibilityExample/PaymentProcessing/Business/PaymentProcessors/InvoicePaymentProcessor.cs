@@ -7,18 +7,13 @@ using System.Threading.Tasks;
 
 namespace PaymentProcessing.Business.PaymentProcessors
 {
-    public class InvoicePaymentProcessor : IPaymentProcessor
+    public class InvoicePaymentProcessor : PaymentProcessor
     {
-        public void Finalize(Order order)
+        public override void Finalize(Order order, PaymentProvider paymentProvider)
         {
             // TODO: Create an invoice and email it while also ensuring validation of the details
 
-            var payment = order.SelectedPayments
-                .FirstOrDefault(payment => payment.PaymentProvider == PaymentProvider.Invoice);
-
-            if (payment == null) return;
-
-            order.FinalizedPayments.Add(payment);
+            base.Finalize(order, paymentProvider);
         }
     }
 }

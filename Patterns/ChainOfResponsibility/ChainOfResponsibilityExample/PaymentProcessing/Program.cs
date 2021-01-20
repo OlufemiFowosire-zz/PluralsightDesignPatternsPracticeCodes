@@ -1,4 +1,5 @@
 ﻿using PaymentProcessing.Business.Exceptions;
+using PaymentProcessing.Business.Handlers;
 using PaymentProcessing.Business.Handlers.PaymentHandlers;
 using PaymentProcessing.Business.Models;
 using System;
@@ -28,9 +29,10 @@ namespace PaymentProcessing
             Console.WriteLine($"Order Total: {order.AmountDue}");
             Console.WriteLine($"Shipping Status: {order.ShippingStatus.GetDescription()}");
 
-            var handler = new PaypalHandler();
-            handler.SetNext(new CreditCardHandler())
-                   .SetNext(new InvoiceHandler());
+            Console.WriteLine($"Amount Paid: {order.AmountPaid}");
+            Console.WriteLine($"Wallet Balance: {order.WalletBalance}");
+
+            var handler = new PaymentHandler(new PaypalHandler(), new CreditCardHandler(), new InvoiceHandler());
             try
             {
                 handler.Handle(order);
@@ -43,6 +45,9 @@ namespace PaymentProcessing
             {
                 Console.WriteLine($"Amount Due: {order.AmountDue}");
                 Console.WriteLine($"Shipping Status: {order.ShippingStatus.GetDescription()}");
+
+                Console.WriteLine($"Amount Paid: {order.AmountPaid}");
+                Console.WriteLine($"Wallet Balance: {order.WalletBalance}");
             }
         }
     }

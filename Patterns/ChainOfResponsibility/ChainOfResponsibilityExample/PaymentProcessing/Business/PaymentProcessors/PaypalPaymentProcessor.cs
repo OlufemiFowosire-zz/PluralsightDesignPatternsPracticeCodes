@@ -7,15 +7,11 @@ using System.Threading.Tasks;
 
 namespace PaymentProcessing.Business.PaymentProcessors
 {
-    public class PaypalPaymentProcessor : IPaymentProcessor
+    public class PaypalPaymentProcessor : PaymentProcessor
     {
-        public void Finalize(Order order)
+        public override void Finalize(Order order, PaymentProvider paymentProvider)
         {
-            var payment = order.SelectedPayments.FirstOrDefault(payment => payment.PaymentProvider == PaymentProvider.Paypal);
-
-            if (payment == null) return;
-
-            order.FinalizedPayments.Add(payment);
+            base.Finalize(order, paymentProvider);
         }
     }
 }
