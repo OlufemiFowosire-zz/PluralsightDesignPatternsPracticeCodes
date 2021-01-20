@@ -24,12 +24,13 @@ namespace PaymentProcessing
                 Amount = 1797
             });
 
+            
             Console.WriteLine($"Order Total: {order.AmountDue}");
-            Console.WriteLine($"Shipping Status: {order.ShippingStatus}");
+            Console.WriteLine($"Shipping Status: {order.ShippingStatus.GetDescription()}");
 
             var handler = new PaypalHandler();
             handler.SetNext(new CreditCardHandler())
-                .SetNext(new InvoiceHandler());
+                   .SetNext(new InvoiceHandler());
             try
             {
                 handler.Handle(order);
@@ -41,7 +42,7 @@ namespace PaymentProcessing
             finally
             {
                 Console.WriteLine($"Amount Due: {order.AmountDue}");
-                Console.WriteLine($"Shipping Status: {order.ShippingStatus}");
+                Console.WriteLine($"Shipping Status: {order.ShippingStatus.GetDescription()}");
             }
         }
     }

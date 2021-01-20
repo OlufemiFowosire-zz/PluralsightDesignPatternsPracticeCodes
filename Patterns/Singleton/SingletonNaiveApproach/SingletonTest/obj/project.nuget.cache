@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jVCMowNwAqHF2jqzu6HU+J86/E+hpeg2PnPyQMa0WwZ9trE7d8IZn7qML3QTnrkorJ15GpA3o9zZrOPOOh5IUw==",
+  "dgSpecHash": "zWJSHUQIGc5gv2BHuECBJHEG2b/tvZnCih4h93XyCZhwRBV2SnYgnnf0YyQjWA6K8RftM7eE2WXoU8CX1Fabng==",
   "success": true,
   "projectFilePath": "C:\\Users\\olufe\\source\\repos\\PluralSight\\Patterns\\Singleton\\SingletonNaiveApproach\\SingletonTest\\SingletonTest.csproj",
   "expectedPackageFiles": [
