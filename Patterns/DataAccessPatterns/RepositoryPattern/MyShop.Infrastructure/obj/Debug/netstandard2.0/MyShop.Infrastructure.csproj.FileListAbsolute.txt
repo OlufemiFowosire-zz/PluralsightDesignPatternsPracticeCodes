@@ -1,0 +1,12 @@
+C:\Users\olufe\source\repos\PluralSight\Patterns\DataAccessPatterns\RepositoryPattern\MyShop.Infrastructure\bin\Debug\netstandard2.0\MyShop.Infrastructure.deps.json
+C:\Users\olufe\source\repos\PluralSight\Patterns\DataAccessPatterns\RepositoryPattern\MyShop.Infrastructure\bin\Debug\netstandard2.0\MyShop.Infrastructure.dll
+C:\Users\olufe\source\repos\PluralSight\Patterns\DataAccessPatterns\RepositoryPattern\MyShop.Infrastructure\bin\Debug\netstandard2.0\MyShop.Infrastructure.pdb
+C:\Users\olufe\source\repos\PluralSight\Patterns\DataAccessPatterns\RepositoryPattern\MyShop.Infrastructure\bin\Debug\netstandard2.0\MyShop.Domain.dll
+C:\Users\olufe\source\repos\PluralSight\Patterns\DataAccessPatterns\RepositoryPattern\MyShop.Infrastructure\bin\Debug\netstandard2.0\MyShop.Domain.pdb
+C:\Users\olufe\source\repos\PluralSight\Patterns\DataAccessPatterns\RepositoryPattern\MyShop.Infrastructure\obj\Debug\netstandard2.0\MyShop.Infrastructure.csprojAssemblyReference.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\DataAccessPatterns\RepositoryPattern\MyShop.Infrastructure\obj\Debug\netstandard2.0\MyShop.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\DataAccessPatterns\RepositoryPattern\MyShop.Infrastructure\obj\Debug\netstandard2.0\MyShop.Infrastructure.AssemblyInfo.cs
+C:\Users\olufe\source\repos\PluralSight\Patterns\DataAccessPatterns\RepositoryPattern\MyShop.Infrastructure\obj\Debug\netstandard2.0\MyShop.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\olufe\source\repos\PluralSight\Patterns\DataAccessPatterns\RepositoryPattern\MyShop.Infrastructure\obj\Debug\netstandard2.0\MyShop.Infrastructure.csproj.CopyComplete
+C:\Users\olufe\source\repos\PluralSight\Patterns\DataAccessPatterns\RepositoryPattern\MyShop.Infrastructure\obj\Debug\netstandard2.0\MyShop.Infrastructure.dll
+C:\Users\olufe\source\repos\PluralSight\Patterns\DataAccessPatterns\RepositoryPattern\MyShop.Infrastructure\obj\Debug\netstandard2.0\MyShop.Infrastructure.pdb

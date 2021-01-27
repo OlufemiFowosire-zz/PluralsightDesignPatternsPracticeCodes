@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-#nullable enable
+// #Nullable enable applied at the project level
 namespace PaymentProcessing
 {
     public static class Extension

@@ -44,9 +44,14 @@ namespace PaymentProcessing.Business.Handlers
             }
         }
 
-        public void SetNext(IReceiver<Order> next)
+        public void AddProvider(IReceiver<Order> next)
         {
             receivers.Add(next);
+        }
+
+        public void ClearProviders()
+        {
+            receivers.Clear();
         }
     }
 }
