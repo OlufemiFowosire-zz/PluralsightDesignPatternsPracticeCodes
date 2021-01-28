@@ -1,7 +1,9 @@
-﻿using MyShop.Domain.Models;
+﻿using MyShop.Domain.Lazy;
+using MyShop.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,6 +13,42 @@ namespace MyShop.Infrastructure.Repositories
     {
         public CustomerRepository(ShoppingContext context) : base(context)
         {
+        }
+
+        public override IEnumerable<Customer> All()
+        {
+            return base.All().Select(c => 
+            {
+                c.ProfilePictureValueHolder = new ValueHolder<byte[]>(parameter =>
+                {
+                    return ProfilePictureService.GetFor(parameter.ToString());
+                });
+
+                return c;
+            });
+        }
+
+        public override IEnumerable<Customer> Find(Expression<Func<Customer, bool>> predicate)
+        {
+            return base.Find(predicate).Select(c =>
+            {
+                c.ProfilePictureValueHolder = new ValueHolder<byte[]>(parameter =>
+                {
+                    return ProfilePictureService.GetFor(parameter.ToString());
+                });
+
+                return c;
+            });
+        }
+
+        public override Customer Get(Guid id)
+        {
+            var customer = base.Get(id);
+            customer.ProfilePictureValueHolder = new ValueHolder<byte[]>(parameter =>
+            {
+                return ProfilePictureService.GetFor(parameter.ToString());
+            });
+            return customer;
         }
 
         public override Customer Update(Customer entity)
@@ -25,5 +63,7 @@ namespace MyShop.Infrastructure.Repositories
 
             return base.Update(customer);
         }
+
+
     }
 }
