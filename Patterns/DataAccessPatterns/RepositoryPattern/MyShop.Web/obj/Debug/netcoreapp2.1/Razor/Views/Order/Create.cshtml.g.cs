@@ -72,7 +72,7 @@ using MyShop.Web.Models;
                     ");
             EndContext();
             BeginContext(450, 52, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6dcc190475e346f0aca4891f84498623", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6f3ab17c6df54291aca27f0a23918b9a", async() => {
                 BeginContext(476, 17, true);
                 WriteLiteral("Please select one");
                 EndContext();
@@ -106,7 +106,7 @@ using MyShop.Web.Models;
             WriteLiteral("                        ");
             EndContext();
             BeginContext(604, 303, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cc517dd2d81c41608b596c4acecc94ac", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1e89e20b418741119c2aaeeba30f1b43", async() => {
                 BeginContext(829, 30, true);
                 WriteLiteral("\r\n                            ");
                 EndContext();

@@ -68,7 +68,6 @@ namespace MyShop.Web.Controllers
                 customer.Country = model.Customer.Country;
 
                 unitOfWork.CustomerRepository.Update(customer);
-                //unitOfWork.SaveChanges();
             }
             else
             {

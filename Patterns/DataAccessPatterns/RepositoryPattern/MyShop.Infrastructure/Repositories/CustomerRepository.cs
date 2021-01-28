@@ -17,38 +17,19 @@ namespace MyShop.Infrastructure.Repositories
 
         public override IEnumerable<Customer> All()
         {
-            return base.All().Select(c => 
-            {
-                c.ProfilePictureValueHolder = new Lazy<byte[]>(() =>
-                {
-                    return ProfilePictureService.GetFor(c.Name);
-                });
-
-                return c;
-            });
+            return base.All().Select(MapToProxy);
         }
 
         public override IEnumerable<Customer> Find(Expression<Func<Customer, bool>> predicate)
         {
-            return base.Find(predicate).Select(c =>
-            {
-                c.ProfilePictureValueHolder = new Lazy<byte[]>(() =>
-                {
-                    return ProfilePictureService.GetFor(c.Name);
-                });
-
-                return c;
-            });
+            return base.Find(predicate).Select(MapToProxy);
         }
 
         public override Customer Get(Guid id)
         {
             var customer = base.Get(id);
-            customer.ProfilePictureValueHolder = new Lazy<byte[]>(() =>
-            {
-                return ProfilePictureService.GetFor(customer.Name);
-            });
-            return customer;
+            
+            return new CustomerProxy(customer);
         }
 
         public override Customer Update(Customer entity)
@@ -64,6 +45,17 @@ namespace MyShop.Infrastructure.Repositories
             return base.Update(customer);
         }
 
-
+        private CustomerProxy MapToProxy(Customer c)
+        {
+            return new CustomerProxy
+            {
+                CustomerId = c.CustomerId,
+                Name = c.Name,
+                City = c.City,
+                Country = c.Country,
+                PostalCode = c.PostalCode,
+                ShippingAddress = c.ShippingAddress
+            };
+        }
     }
 }
