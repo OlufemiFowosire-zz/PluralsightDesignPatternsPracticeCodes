@@ -5,19 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyShop.Domain.Lazy
+namespace MyShop.Domain.Lazy.Proxy
 {
     public class CustomerProxy : Customer
     {
-        private readonly Customer c;
-
-        public CustomerProxy()
-        {
-        }
-        public CustomerProxy(Customer c)
-        {
-            this.c = c;
-        }
         public override byte[] ProfilePicture
         {
             get

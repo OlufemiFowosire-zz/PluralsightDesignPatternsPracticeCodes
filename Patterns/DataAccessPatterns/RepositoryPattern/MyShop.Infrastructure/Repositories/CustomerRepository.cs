@@ -1,4 +1,5 @@
-﻿using MyShop.Domain.Lazy;
+﻿using MyShop.Domain.Lazy.Ghost;
+using MyShop.Domain.Lazy.Proxy;
 using MyShop.Domain.Models;
 using System;
 using System.Collections.Generic;
@@ -27,9 +28,12 @@ namespace MyShop.Infrastructure.Repositories
 
         public override Customer Get(Guid id)
         {
-            var customer = base.Get(id);
-            
-            return new CustomerProxy(customer);
+            var customerId = context.Customers.Where(c => c.CustomerId == id).Select(c => c.CustomerId).Single();
+
+            return new GhostCustomer(()=>base.Get(id)) 
+            { 
+                CustomerId = customerId
+            };
         }
 
         public override Customer Update(Customer entity)
